@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: hsl(var(--heroui-background));
+  color: hsl(var(--heroui-foreground));
+}
+
+.chart-tooltip {
+  background-color: hsl(var(--heroui-content1));
+  border: 1px solid hsl(var(--heroui-divider));
+  border-radius: 6px;
+  padding: 8px 12px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
